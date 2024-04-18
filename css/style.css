@@ -42,12 +42,14 @@ header{
     margin-left: 240px;
     margin-right: 290px;
     padding-left: 50px;
-    padding-bottom: 10px;
+    padding-bottom: 5px;
     padding-top: 1px;
     background-color: white;
 }
 .list p{
     font-family: Arial, sans-serif;
+    margin-top: 8px;
+    margin-bottom: 8px;
 }
 .tab{
     list-style-type: none;
@@ -74,4 +76,49 @@ header{
     border-radius: 50%;
     border-bottom-left-radius: 50%;
     font-size: 11px;
+}
+.but-right-vi{
+
+    padding: 4px 8px;
+    border-radius: 10px;
+    background-color:#AB5DE6;
+    border: none;
+    color: white;
+    font-size: 9px;
+    font-family: Arial, sans-serif;
+}
+ul li{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.but-right-gr{
+
+    padding: 4px 8px;
+    border-radius: 10px;
+    background-color:#2cc6ab;
+    border: none;
+    color: white;
+    font-size: 9px;
+    font-family: Arial, sans-serif;
+}
+.cross{
+    margin: 5px;
+    height: 40px;
+    width: 40px;
+    border: 1px solid red;
+    text-align: center;
+    line-height: 18px;
+    border-radius: 50%;
+    border-bottom-left-radius: 50%;
+    font-size: 11px;
+}
+.but-right-ar{
+
+    padding: 4px 8px;
+    border-radius: 10px;
+    background-color: #ff9b00;
+    border: none;
+    color: white;
+    font-size: 9px;
+    font-family: Arial, sans-serif;
 }
