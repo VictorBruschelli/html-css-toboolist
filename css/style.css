@@ -57,7 +57,7 @@ header{
     font-family: Arial, sans-serif;
     font-size: 13px;
 }
-.but-right{
+.but-right-blu{
     padding: 4px 8px;
     border-radius: 10px;
     background-color:#09A9ED;
@@ -67,15 +67,16 @@ header{
     font-family: Arial, sans-serif;
 }
 .check{
-    margin: 5px;
-    height: 40px;
-    width: 40px;
-    border: 1px solid green;
-    text-align: center;
-    line-height: 18px;
+    border: 1px solid #2cc6ab;
+    color: #2cc6ab;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
     border-radius: 50%;
-    border-bottom-left-radius: 50%;
-    font-size: 11px;
+    line-height: 15px;
+    font-size: 10px;
+    text-align: center;
 }
 .but-right-vi{
 
@@ -102,21 +103,41 @@ ul li{
     font-family: Arial, sans-serif;
 }
 .cross{
-    margin: 5px;
-    height: 40px;
-    width: 40px;
     border: 1px solid red;
-    text-align: center;
-    line-height: 18px;
+    color: red;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
     border-radius: 50%;
-    border-bottom-left-radius: 50%;
-    font-size: 11px;
+    line-height: 15px;
+    font-size: 10px;
+    text-align: center;
 }
 .but-right-ar{
 
     padding: 4px 8px;
     border-radius: 10px;
     background-color: #ff9b00;
+    border: none;
+    color: white;
+    font-size: 9px;
+    font-family: Arial, sans-serif;
+}
+.but-right-ro{
+    padding: 4px 8px;
+    border-radius: 10px;
+    background-color: #ec4a9d;
+    border: none;
+    color: white;
+    font-size: 9px;
+    font-family: Arial, sans-serif;
+
+}
+.but-right-ver-chiaro{
+    padding: 4px 8px;
+    border-radius: 10px;
+    background-color: #a3d116;
     border: none;
     color: white;
     font-size: 9px;
